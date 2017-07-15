@@ -1,0 +1,23 @@
+---
+dependencies:
+  - sierkje.apache
+  - sierkje.php
+
+galaxy_info:
+  author: sierkje
+  description: Apache PHP-FPM support for Debian or Ubuntu.
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.4
+  platforms:
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+    - name: Ubuntu
+      versions:
+        - xenial
+  galaxy_tags:
+    - web
+    - apache
+    - webserver
+    - php
